@@ -1,0 +1,13 @@
+h1 {
+  color: rgb(78, 78, 228);
+  font-family: sans-serif;
+  border-bottom: 4px solid;
+  border-image: linear-gradient(#ff9101, #039aff) ;
+  text-align-last: center;
+}
+
+img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
