@@ -1,0 +1,23 @@
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 32px;
+  width: 1280px;
+  padding: 0 64px;
+  gap: 16px;
+  border: 1px solid black;  
+}
+
+.container p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 24px;
+  width: 1232px;
+}
+
+.close {
+  display: flex;
+  justify-self: flex-end;
+}
