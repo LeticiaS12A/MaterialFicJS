@@ -15,9 +15,21 @@
   align-items: center;
   height: 24px;
   width: 1232px;
+  font-family: sans-serif ;
+  color: gray;
 }
 
 .close {
   display: flex;
   justify-self: flex-end;
+}
+
+.container button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  width: 35px;
+  border: none;
+  background-color: transparent;
 }
