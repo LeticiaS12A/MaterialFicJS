@@ -1,12 +1,20 @@
-export default function Js(props) {
+export default function Feth() {
+    
+    const url = 'https://viacep.com.br/ws/05783050/json/'
 
-    let brand = {
-        name: 'Suporte',
-        founded: 2023,
-        city: 'São Paulo'
-    }
-
-    const {city} = brand
-
-    return <h1>nome completo: {city} {brand.founded}</h1>
+    fetch(url)
+    .then(res => {
+        if(!res.ok){
+            throw new Error('Deu ruim nisso aqui:' + res.status)
+        }
+        return res.json()
+    })
+    .then(data => {
+        console.log('Dados recebidos: ', data)
+    })
+    .catch(err => {
+        console.error('Error:', err)
+    })
+    
+    return <h1>Feth</h1>
 }
