@@ -1,0 +1,13 @@
+div{
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+div button{
+    width: 50px;
+    height: 25px;
+    color: #fff;
+    font-weight: bold;
+    background-color: rgb(127, 99, 158);
+    border-color: rgb(76, 64, 145);
+}
