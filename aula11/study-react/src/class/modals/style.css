@@ -1,0 +1,92 @@
+.modal{
+    width: 640px;
+    height: 846px;
+    border: 2px solid black;
+    font-family: sans-serif;
+}
+
+.close button{
+    display: flex;
+    padding: 16px 592px 40px;
+    border: none;
+    background: none;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 101px;
+    font-family: sans-serif;
+}
+
+.title h1{
+    font-size: 30px;
+}
+.title p{
+    font-size: 16px;
+}
+
+.inputs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputs input{
+    width: 512px;
+    margin-top: 8px;
+    margin-bottom: 24px;
+    border: 2px solid black;
+}
+
+#username{
+    height: 48px;
+}
+
+#email{
+    height: 48px;
+}
+
+#message {
+    display: flex;
+    height: 180px;
+    justify-items: flex-start;
+    align-items: flex-start;
+}
+
+#message::placeholder{
+    display: flex;
+    align-self: flex-start;
+    justify-self: flex-start;
+}
+
+.checkbox{
+    padding: 24px 64px;
+}
+
+.checkbox input{
+    border: 2px solid black;
+}
+
+.checkbox a{
+    color: black;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 99px;
+    height: 48px;
+    font-size: 20px;
+    color: #fff;
+    background-color: black;
+}

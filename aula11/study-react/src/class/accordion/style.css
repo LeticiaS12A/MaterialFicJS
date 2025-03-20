@@ -1,0 +1,24 @@
+.accordion{
+    border-top: 2px solid black;
+    padding: 0px 20px;
+}
+
+.topo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 72px;
+    font-family: sans-serif;
+}
+.topo button{
+    border: none;
+    background: none;
+}
+
+.accordion p{
+    width: 100%;
+    height: 96px;
+    align-items: start;
+    font-family: sans-serif;
+}
