@@ -1,0 +1,31 @@
+.api-pokemon{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+input{
+    display: flex;
+    height: 28px;
+    width: 350px;
+    border: 2px solid slateblue;
+    border-radius: 8px 8px 0px 0px;
+    padding: 10px;
+}
+
+button{
+    height: 28px;
+    width: 350px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #fff;
+    background-color: slateblue;
+}
